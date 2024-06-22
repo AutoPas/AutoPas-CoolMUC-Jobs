@@ -1,32 +1,9 @@
-# Prerequisites
-*.d
+# AutoPas logs
+*.csv
+*.txt
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Auto4OMP logs
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
+# SLURM job outputs
 *.out
-*.app
