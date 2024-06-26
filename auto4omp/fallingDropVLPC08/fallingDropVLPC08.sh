@@ -29,7 +29,7 @@ AUTOPAS_MD_FLEXIBLE_COMMAND=\
 "srun $AUTOPAS_MD_FLEXIBLE --openmp-kind runtime --log-level info --no-progress-bar true --yaml-filename $AUTOPAS_YAML_FILENAME"
 
 AUTOPAS_AUTO4OMP_LOG=\
-$HOME/ba/cmjobs/AutoPas/auto4omp/log/$AUTOPAS_YAML_INPUT
+$HOME/ba/AutoPas-CoolMUC-Jobs/auto4omp/$AUTOPAS_YAML_INPUT
 
 # List of dynamic chunk sizes to test [1].
 declare -a AUTOPAS_CHUNK_SIZES=\

@@ -14,7 +14,7 @@ module load slurm_setup gcc llvm cmake ninja python doxygen graphviz automake sq
 # Variables:
 
 AUTOPAS_BUILD=\
-$HOME/ba/AutoPas/build
+$HOME/ba/AutoPas/build-dvl-unloaded
 
 AUTOPAS_MD_FLEXIBLE=\
 $AUTOPAS_BUILD/examples/md-flexible/md-flexible
@@ -29,8 +29,11 @@ AUTOPAS_MD_FLEXIBLE_COMMAND=\
 "srun $AUTOPAS_MD_FLEXIBLE --openmp-kind runtime --log-level info --no-progress-bar true --yaml-filename $AUTOPAS_YAML_FILENAME"
 
 AUTOPAS_AUTO4OMP_LOG=\
-$HOME/ba/cmjobs/AutoPas/auto4omp/log/$AUTOPAS_YAML_INPUT
-7
+$HOME/ba/AutoPas-CoolMUC-Jobs/auto4omp/$AUTOPAS_YAML_INPUT
+
+# List of dynamic chunk sizes to test [1].
+declare -a AUTOPAS_CHUNK_SIZES=\
+("1" "2" "4" "8" "16" "32" "64" "128" "256" "512" "1024" "2048" "4096")
 
 # List of Auto4OMP selection methods to test [1].
 declare -a AUTOPAS_AUTO4OMP_METHODS=\
