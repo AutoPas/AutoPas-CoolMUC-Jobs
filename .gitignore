@@ -1,6 +1,9 @@
 # AutoPas logs
 *.csv
 *.txt
+*.yaml
+*.pvtu
+*.pvts
 
 # Auto4OMP logs
 *.log
