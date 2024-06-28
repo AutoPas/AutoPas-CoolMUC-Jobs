@@ -20,7 +20,7 @@ AUTOPAS_MD_FLEXIBLE=\
 $AUTOPAS_BUILD/examples/md-flexible/md-flexible
 
 AUTOPAS_YAML_INPUT=\
-explodingLiquid
+explodingLiquidCM
 
 AUTOPAS_YAML_FILENAME=\
 $AUTOPAS_BUILD/examples/md-flexible/$AUTOPAS_YAML_INPUT.yaml

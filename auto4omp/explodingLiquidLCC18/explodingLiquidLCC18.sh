@@ -8,7 +8,7 @@
 #SBATCH --mail-type=end
 #SBATCH --mail-user=mehdi.hachicha@tum.de
 #SBATCH --export=ALL
-#SBATCH --time=03:00:00
+#SBATCH --time=06:30:00
 module load slurm_setup gcc llvm cmake ninja python doxygen graphviz automake sqlite hwloc cuda
 
 # Variables:
