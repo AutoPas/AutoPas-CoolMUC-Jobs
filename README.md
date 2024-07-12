@@ -1,6 +1,9 @@
 # AutoPas-CoolMUC-Jobs
 SLURM job scripts to test AutoPas on the LRZ Linux Cluster. This Readme is adapted from bachelor thesis *Improving OpenMP Loop Scheduling in AutoPas*, Appendix B.
 
+> [!WARNING]
+> Please edit your valid email into the scripts before submitting them.
+
 ## Setup
 
 ```
