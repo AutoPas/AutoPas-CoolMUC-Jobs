@@ -6,7 +6,7 @@
 #SBATCH --clusters=cm2_tiny
 #SBATCH --nodes=1
 #SBATCH --mail-type=end
-#SBATCH --mail-user=mehdi.hachicha@tum.de
+#SBATCH --mail-user=<!!! user email here !!!>
 #SBATCH --export=ALL
 #SBATCH --time=02:40:00
 module load slurm_setup gcc llvm cmake ninja python doxygen graphviz automake sqlite hwloc cuda
